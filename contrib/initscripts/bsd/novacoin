@@ -1,0 +1,68 @@
+#!/bin/sh
+
+# PROVIDE: Bullcoin
+# REQUIRE: LOGIN
+# KEYWORD: shutdown
+
+#
+# Add the following lines to /etc/rc.conf.local or /etc/rc.conf
+# to enable this service:
+#
+# Bullcoin_enable (bool): Set to NO by default. Set this variable to YES if you want to enable Bullcoin service.
+# Bullcoin_config (path): Set to /usr/local/etc/Bullcoin.conf by default.
+# Bullcoin_user:  The user account Bullcoin daemon runs as. It uses 'root' user by default.
+# Bullcoin_group: The group account Bullcoin daemon runs as. It uses 'wheel' group by default.
+# Bullcoin_datadir (str): Default to "/var/db/Bullcoin". Base data directory.
+
+. /etc/rc.subr
+
+name=Bullcoin
+rcvar=Bullcoin_enable
+
+: ${Bullcoin_enable:=NO}
+: ${Bullcoin_config=/usr/local/etc/Bullcoin.conf}
+: ${Bullcoin_datadir=/var/db/Bullcoin}
+: ${Bullcoin_user="root"}
+: ${Bullcoin_group="wheel"}
+
+required_files=${Bullcoin_config}
+command=/usr/local/bin/Bullcoind
+Bullcoin_chdir=${Bullcoin_datadir}
+pidfile="${Bullcoin_datadir}/Bullcoind.pid"
+stop_cmd=Bullcoin_stop
+command_args="-conf=${Bullcoin_config} -datadir=${Bullcoin_datadir} -daemon -pid=${pidfile}"
+start_precmd="${name}_prestart"
+
+Bullcoin_create_datadir()
+{
+	echo "Creating data directory"
+	eval mkdir -p ${Bullcoin_datadir}
+	[ $? -eq 0 ] && chown -R ${Bullcoin_user}:${Bullcoin_group} ${Bullcoin_datadir}
+}
+
+Bullcoin_prestart()
+{
+	if [ ! -d "${Bullcoin_datadir}/." ]; then
+		Bullcoin_create_datadir || return 1
+	fi
+}
+
+Bullcoin_requirepidfile()
+{
+	if [ ! "0`check_pidfile ${pidfile} ${command}`" -gt 1 ]; then
+		echo "${name} not running? (check $pidfile)."
+		exit 1
+	fi
+}
+
+Bullcoin_stop()
+{
+    Bullcoin_requirepidfile
+
+	echo "Stopping ${name}."
+	eval ${command} -conf=${Bullcoin_config} -datadir=${Bullcoin_datadir} stop
+	wait_for_pids ${rc_pid}
+}
+
+load_rc_config $name
+run_rc_command "$1"

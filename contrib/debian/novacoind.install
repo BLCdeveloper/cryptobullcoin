@@ -1,0 +1,2 @@
+debian/bin/Bullcoind usr/bin
+src/Bullcoind usr/lib/Bullcoin

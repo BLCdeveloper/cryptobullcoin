@@ -1,0 +1,5 @@
+Bullcoin-qt usr/bin
+share/pixmaps/Bullcoin32.xpm usr/share/pixmaps
+share/pixmaps/Bullcoin80.xpm usr/share/pixmaps
+debian/Bullcoin-qt.desktop usr/share/applications
+debian/Bullcoin-qt.protocol usr/share/kde4/services/

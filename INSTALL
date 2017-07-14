@@ -1,0 +1,9 @@
+Building Bullcoin
+
+See doc/readme-qt.rst for instructions on building Bullcoin Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Bullcoin.
+
+See doc/build-*.txt for instructions on building Bullcoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Bullcoin.

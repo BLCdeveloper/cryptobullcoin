@@ -1,0 +1,11 @@
+[Unit]
+Description=Bullcoin daemon serivce
+After=network.target
+
+[Service]
+Type=simple
+User=Bullcoin
+ExecStart=/opt/Bullcoin/Bullcoind
+
+[Install]
+WantedBy=multi-user.target

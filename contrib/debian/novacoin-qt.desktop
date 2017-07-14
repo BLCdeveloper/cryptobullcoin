@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Bullcoin
+Comment=Bullcoin P2P Cryptocurrency
+Comment[ru]=Bullcoin, P2P криптовалюта
+Comment[fr]=Bullcoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Bullcoin, eşten eşe kriptografik sanal para birimi
+Exec=/usr/bin/Bullcoin-qt
+Terminal=false
+Type=Application
+Icon=/usr/share/pixmaps/Bullcoin80.xpm
+MimeType=x-scheme-handler/Bullcoin;
+Categories=Office;

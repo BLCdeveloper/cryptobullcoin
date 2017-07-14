@@ -1,0 +1,25 @@
+#!/usr/bin/make -f
+# -*- mode: makefile; coding: utf-8 -*-
+
+DEB_INSTALL_EXAMPLES_Bullcoind += debian/examples/*
+DEB_INSTALL_MANPAGES_Bullcoind += debian/manpages/*
+
+%:
+	dh --with bash-completion $@
+
+override_dh_auto_build:
+	cd src; $(MAKE) -f makefile.unix Bullcoind USE_ASM=1 USE_LEVELDB=1
+	$(MAKE)
+
+override_dh_auto_clean:
+	if [ -f Makefile ]; then $(MAKE) clean; else rm -rf build/; rm -f Bullcoin-qt; fi
+	cd src; $(MAKE) -f makefile.unix clean
+
+override_dh_auto_configure:
+	qmake Bullcoin-qt.pro USE_ASM=1 USE_LEVELDB=1
+
+# Ensure wrapper is set executable
+binary-post-install/Bullcoind:
+	chmod +x $(cdbs_curdestdir)usr/bin/Bullcoind
+binary-post-install/Bullcoin-qt:
+	chmod +x $(cdbs_curdestdir)usr/bin/Bullcoin-qt
