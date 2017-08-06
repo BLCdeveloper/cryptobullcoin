@@ -126,9 +126,9 @@ bool CDBEnv::Open(boost::filesystem::path pathEnv_)
         if (nDeepReorg < 3)
         {
             if (nBlocks < 1)
-                strMessage = strprintf(_("Warning: DB_CONFIG has set_lk_max_locks %lu, which may be too low for a single block. If this limit is reached, Bullcoin may stop working."), (unsigned long)nMaxLocks);
+                strMessage = strprintf(_("Warning: DB_CONFIG has set_lk_max_locks %lu, which may be too low for a single block. If this limit is reached, Cryptobullcoin may stop working."), (unsigned long)nMaxLocks);
             else
-                strMessage = strprintf(_("Warning: DB_CONFIG has set_lk_max_locks %lu, which may be too low for a common blockchain reorganization. If this limit is reached, Bullcoin may stop working."), (unsigned long)nMaxLocks);
+                strMessage = strprintf(_("Warning: DB_CONFIG has set_lk_max_locks %lu, which may be too low for a common blockchain reorganization. If this limit is reached, Cryptobullcoin may stop working."), (unsigned long)nMaxLocks);
 
             strMiscWarning = strMessage;
             printf("*** %s\n", strMessage.c_str());

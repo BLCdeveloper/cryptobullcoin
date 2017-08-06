@@ -83,10 +83,10 @@
        <item>
         <widget class="QCheckBox" name="bitcoinAtStartup">
          <property name="toolTip">
-          <string>Automatically start Bullcoin after logging in to the system.</string>
+          <string>Automatically start Cryptobullcoin after logging in to the system.</string>
          </property>
          <property name="text">
-          <string>&amp;Start Bullcoin on system login</string>
+          <string>&amp;Start Cryptobullcoin on system login</string>
          </property>
         </widget>
        </item>
@@ -123,7 +123,7 @@
        <item>
         <widget class="QCheckBox" name="connectSocks">
          <property name="toolTip">
-          <string>Connect to the Bullcoin network through a SOCKS proxy (e.g. when connecting through Tor).</string>
+          <string>Connect to the Cryptobullcoin network through a SOCKS proxy (e.g. when connecting through Tor).</string>
          </property>
          <property name="text">
           <string>&amp;Connect through SOCKS proxy:</string>
@@ -401,7 +401,7 @@
          <item>
           <widget class="QValueComboBox" name="lang">
            <property name="toolTip">
-            <string>The user interface language can be set here. This setting will take effect after restarting Bullcoin.</string>
+            <string>The user interface language can be set here. This setting will take effect after restarting Cryptobullcoin.</string>
            </property>
           </widget>
          </item>
@@ -434,7 +434,7 @@
        <item>
         <widget class="QCheckBox" name="displayAddresses">
          <property name="toolTip">
-          <string>Whether to show Bullcoin addresses in the transaction list or not.</string>
+          <string>Whether to show Cryptobullcoin addresses in the transaction list or not.</string>
          </property>
          <property name="text">
           <string>&amp;Display addresses in transaction list</string>

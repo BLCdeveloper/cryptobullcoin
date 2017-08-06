@@ -638,7 +638,7 @@ DBErrors CWalletDB::ZapWalletTx(CWallet* pwallet)
 void ThreadFlushWalletDB(void* parg)
 {
     // Make this thread recognisable as the wallet flushing thread
-    RenameThread("Bullcoin-wallet");
+    RenameThread("Cryptobullcoin-wallet");
 
     const string& strFile = ((const string*)parg)[0];
     static bool fOneThread;
@@ -765,7 +765,7 @@ bool DumpWallet(CWallet* pwallet, const string& strDest)
          return false;
 
       // produce output
-      file << strprintf("# Wallet dump created by Bullcoin %s (%s)\n", CLIENT_BUILD.c_str(), CLIENT_DATE.c_str());
+      file << strprintf("# Wallet dump created by Cryptobullcoin %s (%s)\n", CLIENT_BUILD.c_str(), CLIENT_DATE.c_str());
       file << strprintf("# * Created on %s\n", EncodeDumpTime(GetTime()).c_str());
       file << strprintf("# * Best block at time of backup was %i (%s),\n", nBestHeight, hashBestChain.ToString().c_str());
       file << strprintf("#   mined on %s\n", EncodeDumpTime(pindexBest->nTime).c_str());

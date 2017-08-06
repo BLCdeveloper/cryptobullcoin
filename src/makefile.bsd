@@ -137,7 +137,7 @@ OBJS= \
     obj/kernel.o \
     obj/kernel_worker.o
 
-all: Bullcoind
+all: Cryptobullcoind
 
 #
 # LevelDB support
@@ -216,11 +216,11 @@ obj/%.o: %.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-Bullcoind: $(OBJS:obj/%=obj/%)
+Cryptobullcoind: $(OBJS:obj/%=obj/%)
 	$(LINK) $(xCXXFLAGS) -o $@ $^ $(xLDFLAGS) $(LIBS)
 
 clean:
-	-rm -f Bullcoind
+	-rm -f Cryptobullcoind
 	-rm -f obj/*.o
 	-rm -f obj/*.P
 	-rm -f obj/*.d

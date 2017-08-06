@@ -231,7 +231,7 @@ void OptionsDialog::showRestartWarning_Proxy()
 {
     if(!fRestartWarningDisplayed_Proxy)
     {
-        QMessageBox::warning(this, tr("Warning"), tr("This setting will take effect after restarting Bullcoin."), QMessageBox::Ok);
+        QMessageBox::warning(this, tr("Warning"), tr("This setting will take effect after restarting Cryptobullcoin."), QMessageBox::Ok);
         fRestartWarningDisplayed_Proxy = true;
     }
 }
@@ -240,7 +240,7 @@ void OptionsDialog::showRestartWarning_Tor()
 {
     if(!fRestartWarningDisplayed_Proxy)
     {
-        QMessageBox::warning(this, tr("Warning"), tr("This setting will take effect after restarting Bullcoin."), QMessageBox::Ok);
+        QMessageBox::warning(this, tr("Warning"), tr("This setting will take effect after restarting Cryptobullcoin."), QMessageBox::Ok);
         fRestartWarningDisplayed_Tor = true;
     }
 }
@@ -249,7 +249,7 @@ void OptionsDialog::showRestartWarning_Lang()
 {
     if(!fRestartWarningDisplayed_Lang)
     {
-        QMessageBox::warning(this, tr("Warning"), tr("This setting will take effect after restarting Bullcoin."), QMessageBox::Ok);
+        QMessageBox::warning(this, tr("Warning"), tr("This setting will take effect after restarting Cryptobullcoin."), QMessageBox::Ok);
         fRestartWarningDisplayed_Lang = true;
     }
 }
@@ -258,7 +258,7 @@ void OptionsDialog::showRestartWarning_URL()
 {
     if(!fRestartWarningDisplayed_URL)
     {
-        QMessageBox::warning(this, tr("Warning"), tr("This setting will take effect after restarting Bullcoin."), QMessageBox::Ok);
+        QMessageBox::warning(this, tr("Warning"), tr("This setting will take effect after restarting Cryptobullcoin."), QMessageBox::Ok);
         fRestartWarningDisplayed_URL = true;
     }
 }

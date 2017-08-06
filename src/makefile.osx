@@ -101,7 +101,7 @@ ifneq (${USE_IPV6}, -)
 	DEFS += -DUSE_IPV6=$(USE_IPV6)
 endif
 
-all: Bullcoind
+all: Cryptobullcoind
 
 #
 # LevelDB support
@@ -173,11 +173,11 @@ obj/%.o: %.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-Bullcoind: $(OBJS:obj/%=obj/%)
+Cryptobullcoind: $(OBJS:obj/%=obj/%)
 	$(CXX) $(CFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 clean:
-	-rm -f Bullcoind
+	-rm -f Cryptobullcoind
 	-rm -f obj/*.o
 	-rm -f obj/*.P
 	-rm -f obj/*.d

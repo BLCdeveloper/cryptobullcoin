@@ -33,7 +33,7 @@ class CNode;
 // Global state
 //
 
-static const int LAST_POW_BLOCK = 38000; // PoW always on
+static const int LAST_POW_BLOCK = 80000;
 
 static const unsigned int MAX_BLOCK_SIZE = 1000000;
 static const unsigned int MAX_BLOCK_SIZE_GEN = MAX_BLOCK_SIZE/2;
@@ -957,7 +957,7 @@ public:
     // ppcoin: entropy bit for stake modifier if chosen by modifier
     unsigned int GetStakeEntropyBit(unsigned int nHeight) const
     {
-        // Protocol switch to support p2pool at Bullcoin block #0
+        // Protocol switch to support p2pool at Cryptobullcoin block #0
         if (nHeight >= 0 || fTestNet)
         {
             // Take last bit of block hash as entropy bit
@@ -967,7 +967,7 @@ public:
             return nEntropyBit;
         }
 
-        // Before Bullcoin block #0 - get from pregenerated table
+        // Before Cryptobullcoin block #0 - get from pregenerated table
         int nBitNum = nHeight & 0xFF;
         int nItemNum = nHeight / 0xFF;
 

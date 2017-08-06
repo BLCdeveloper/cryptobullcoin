@@ -1047,7 +1047,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "Bullcoin";
+    const char* pszModule = "Cryptobullcoin";
 #endif
     if (pex)
         return strprintf(
@@ -1096,10 +1096,10 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Bullcoin
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Bullcoin
-    // Mac: ~/Library/Application Support/Bullcoin
-    // Unix: ~/.Bullcoin
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Cryptobullcoin
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Cryptobullcoin
+    // Mac: ~/Library/Application Support/Cryptobullcoin
+    // Unix: ~/.Cryptobullcoin
 #ifdef WIN32
     // Windows
     return GetSpecialFolderPath(CSIDL_APPDATA) / "Bullcoin";
@@ -1228,7 +1228,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 
 boost::filesystem::path GetPidFile()
 {
-    boost::filesystem::path pathPidFile(GetArg("-pid", "Bullcoind.pid"));
+    boost::filesystem::path pathPidFile(GetArg("-pid", "Cryptobullcoind.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }
@@ -1387,10 +1387,10 @@ void AddTimeData(const CNetAddr& ip, int64_t nTime)
                 if (!fMatch)
                 {
                     fDone = true;
-                    string strMessage = _("Warning: Please check that your computer's date and time are correct! If your clock is wrong Bullcoin will not work properly.");
+                    string strMessage = _("Warning: Please check that your computer's date and time are correct! If your clock is wrong Cryptobullcoin will not work properly.");
                     strMiscWarning = strMessage;
                     printf("*** %s\n", strMessage.c_str());
-                    uiInterface.ThreadSafeMessageBox(strMessage+" ", string("Bullcoin"), CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION);
+                    uiInterface.ThreadSafeMessageBox(strMessage+" ", string("Cryptobullcoin"), CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION);
                 }
             }
         }

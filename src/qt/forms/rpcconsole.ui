@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Bullcoin - Debug window</string>
+   <string>Cryptobullcoin - Debug window</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout_2">
    <item>
@@ -92,7 +92,7 @@
        <item row="16" column="0">
         <widget class="QPushButton" name="openDebugLogfileButton">
          <property name="toolTip">
-          <string>Open the Bullcoin debug log file from the current data directory. This can take a few seconds for large log files.</string>
+          <string>Open the Cryptobullcoin debug log file from the current data directory. This can take a few seconds for large log files.</string>
          </property>
          <property name="text">
           <string>&amp;Open</string>
@@ -144,7 +144,7 @@
        <item row="18" column="0">
         <widget class="QPushButton" name="showCLOptionsButton">
          <property name="toolTip">
-          <string>Show the Bullcoin-Qt help message to get a list with possible Bullcoin command-line options.</string>
+          <string>Show the Cryptobullcoin-Qt help message to get a list with possible Cryptobullcoin command-line options.</string>
          </property>
          <property name="text">
           <string>&amp;Show</string>
@@ -380,7 +380,7 @@
           </font>
          </property>
          <property name="text">
-          <string>Bullcoin Core</string>
+          <string>Cryptobullcoin Core</string>
          </property>
         </widget>
        </item>
@@ -423,7 +423,7 @@
        <item row="16" column="2">
         <widget class="QPushButton" name="openConfigurationfileButton">
          <property name="toolTip">
-          <string>Open the Bullcoin configuration file from the current data directory.</string>
+          <string>Open the Cryptobullcoin configuration file from the current data directory.</string>
          </property>
          <property name="text">
           <string>O&amp;pen</string>

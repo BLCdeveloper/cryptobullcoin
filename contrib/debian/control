@@ -1,8 +1,8 @@
 Source: Bullcoin
 Section: utils
 Priority: optional
-Maintainer: Bullcoindev <nolimitdev@protonmail.com>
-Uploaders: Bullcoindev <nolimitdev@protonmail.com>
+Maintainer: Alex D. <balthazar.ad@gmail.com>
+Uploaders: Alex D. <balthazar.ad@gmail.com>
 Build-Depends: debhelper,
  devscripts,
  bash-completion,

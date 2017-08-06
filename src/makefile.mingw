@@ -90,7 +90,7 @@ OBJS= \
     obj/kernel.o \
     obj/kernel_worker.o
 
-all: Bullcoind.exe
+all: Cryptobullcoind.exe
 
 #
 # LevelDB support
@@ -156,11 +156,11 @@ endif
 obj/%.o: %.cpp $(HEADERS)
 	g++ -c $(CFLAGS) -o $@ $<
 
-Bullcoind.exe: $(OBJS:obj/%=obj/%)
+Cryptobullcoind.exe: $(OBJS:obj/%=obj/%)
 	g++ $(CFLAGS) $(LDFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 clean:
-	-del /Q Bullcoind
+	-del /Q Cryptobullcoind
 	-del /Q obj\*
 	-del /Q crypto\scrypt\asm\obj\*
 	-del /Q crypto\sha2\asm\obj\*

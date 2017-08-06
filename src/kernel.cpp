@@ -1,5 +1,5 @@
 // Copyright (c) 2012-2013 The PPCoin developers
-// Copyright (c) 2013-2015 The Bullcoin developers
+// Copyright (c) 2013-2015 The Cryptobullcoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 // Distributed under the MIT/X11 software license, see the accompanying

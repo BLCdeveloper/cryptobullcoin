@@ -100,7 +100,7 @@ OBJS= \
     obj/kernel.o \
     obj/kernel_worker.o
 
-all: Bullcoind.exe
+all: Cryptobullcoind.exe
 
 #
 # LevelDB support
@@ -173,12 +173,12 @@ DEFS += -DHAVE_BUILD_INFO
 obj/%.o: %.cpp $(HEADERS)
 	$(CXX) -c $(CFLAGS) -o $@ $<
 
-Bullcoind.exe: $(OBJS:obj/%=obj/%)
+Cryptobullcoind.exe: $(OBJS:obj/%=obj/%)
 	$(CXX) $(CFLAGS) $(LDFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS) -lshlwapi
-	$(STRIP) Bullcoind.exe
+	$(STRIP) Cryptobullcoind.exe
 
 clean:
-	-rm -f Bullcoind.exe
+	-rm -f Cryptobullcoind.exe
 	-rm -f obj/*.o
 	-rm -f obj/*.P
 	-rm -f obj/*.d

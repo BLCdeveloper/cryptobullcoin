@@ -113,7 +113,7 @@ void AskPassphraseDialog::accept()
                 {
                     QMessageBox::warning(this, tr("Wallet encrypted"),
                                          "<qt>" + 
-                                         tr("Bullcoin will close now to finish the encryption process. "
+                                         tr("Cryptobullcoin will close now to finish the encryption process. "
                                          "Remember that encrypting your wallet cannot fully protect "
                                          "your coins from being stolen by malware infecting your computer.") + 
                                          "<br><br><b>" + 
@@ -175,7 +175,7 @@ void AskPassphraseDialog::accept()
         {
             QMessageBox::warning(this, tr("Wallet decrypted"),
                                      "<qt>" + 
-                                     tr("Bullcoin will close now to finish the decryption process. ") +
+                                     tr("Cryptobullcoin will close now to finish the decryption process. ") +
                                      "</b></qt>");
             QApplication::quit();
         }

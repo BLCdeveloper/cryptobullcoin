@@ -77,7 +77,7 @@ void ipcScanRelay(int argc, char *argv[])
 static void ipcThread(void* pArg)
 {
     // Make this thread recognisable as the GUI-IPC thread
-    RenameThread("Bullcoin-gui-ipc");
+    RenameThread("Cryptobullcoin-gui-ipc");
 	
     try
     {

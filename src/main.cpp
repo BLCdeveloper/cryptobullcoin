@@ -1630,7 +1630,7 @@ static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck(void*) {
     vnThreadsRunning[THREAD_SCRIPTCHECK]++;
-    RenameThread("Bullcoin-scriptch");
+    RenameThread("Cryptobullcoin-scriptch");
     scriptcheckqueue.Thread();
     vnThreadsRunning[THREAD_SCRIPTCHECK]--;
 }
@@ -1657,7 +1657,7 @@ bool CBlock::ConnectBlock(CTxDB& txdb, CBlockIndex* pindex, bool fJustCheck)
     // Now that the whole chain is irreversibly beyond that time it is applied to all blocks except the
     // two in the chain that violate it. This prevents exploiting the issue against nodes in their
     // initial block download.
-    bool fEnforceBIP30 = true; // Always active in Bullcoin
+    bool fEnforceBIP30 = true; // Always active in Cryptobullcoin
     bool fScriptChecks = pindex->nHeight >= Checkpoints::GetTotalBlocksEstimate();
 
     //// issue here: it doesn't know the version
@@ -2212,7 +2212,7 @@ bool CBlock::CheckBlock(bool fCheckPOW, bool fCheckMerkleRoot, bool fCheckSig) c
         if (GetBlockTime() != (int64_t)vtx[1].nTime)
             return DoS(50, error("CheckBlock() : coinstake timestamp violation nTimeBlock=%" PRId64 " nTimeTx=%u", GetBlockTime(), vtx[1].nTime));
 
-        // Bullcoin: check proof-of-stake block signature
+        // Cryptobullcoin: check proof-of-stake block signature
         if (fCheckSig && !CheckBlockSignature())
             return DoS(100, error("CheckBlock() : bad proof-of-stake block signature"));
 
@@ -2311,7 +2311,7 @@ bool CBlock::AcceptBlock()
         return error("AcceptBlock() : block's timestamp is too early");
  
     // Don't accept blocks with future timestamps
-     if (pindexPrev->nHeight > 100000 && nMedianTimePast  + nMaxOffset < GetBlockTime())
+     if (pindexPrev->nHeight > 10000000 && nMedianTimePast  + nMaxOffset < GetBlockTime())
         return error("AcceptBlock() : block's timestamp is too far in the future");
 
     // Check that all transactions are finalized
@@ -2635,7 +2635,7 @@ bool CheckDiskSpace(uint64_t nAdditionalBytes)
         string strMessage = _("Warning: Disk space is low!");
         strMiscWarning = strMessage;
         printf("*** %s\n", strMessage.c_str());
-        uiInterface.ThreadSafeMessageBox(strMessage, "Bullcoin", CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION | CClientUIInterface::MODAL);
+        uiInterface.ThreadSafeMessageBox(strMessage, "Cryptobullcoin", CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION | CClientUIInterface::MODAL);
         StartShutdown();
         return false;
     }

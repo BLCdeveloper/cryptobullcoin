@@ -5,13 +5,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About Bullcoin</source>
-        <translation>О Bullcoin</translation>
+        <source>About Cryptobullcoin</source>
+        <translation>О Cryptobullcoin</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="56"/>
-        <source>&lt;b&gt;Bullcoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Bullcoin&lt;/b&gt; версия</translation>
+        <source>&lt;b&gt;Cryptobullcoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Cryptobullcoin&lt;/b&gt; версия</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="97"/>
@@ -19,12 +19,12 @@
 Copyright © 2011-2012 The PPCoin Developers
 Copyright © 2014 The Peerunity Developers
 Copyright © 2014 The EmerCoin Developers
-Copyright © 2012-2015 The Bullcoin developers</source>
+Copyright © 2012-2015 The Cryptobullcoin developers</source>
         <translation>Все права защищены © 2009-2015 Разработчики Bitcoin
 Все права защищены © 2011-2012 Разработчики PPCoin
 Все права защищены © 2014 Разработчики Peerunity
 Все права защищены © 2014 Разработчики EmerCoin
-Все права защищены © 2012-2015 Разработчики Bullcoin</translation>
+Все права защищены © 2012-2015 Разработчики Cryptobullcoin</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="114"/>
@@ -41,7 +41,7 @@ Copyright © 2012-2015 The Bullcoin developers</source>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your Bullcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your Cryptobullcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Это Ваши адреса для получения платежей. Вы можете дать разные адреса отправителям, чтобы отслеживать, кто именно вам платит.</translation>
     </message>
     <message>
@@ -76,8 +76,8 @@ Copyright © 2012-2015 The Bullcoin developers</source>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="102"/>
-        <source>Sign a message to prove you own a Bullcoin address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом Bullcoin</translation>
+        <source>Sign a message to prove you own a Cryptobullcoin address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом Cryptobullcoin</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="105"/>
@@ -86,8 +86,8 @@ Copyright © 2012-2015 The Bullcoin developers</source>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="116"/>
-        <source>Verify a message to ensure it was signed with a specified Bullcoin address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Bullcoin</translation>
+        <source>Verify a message to ensure it was signed with a specified Cryptobullcoin address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Cryptobullcoin</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="119"/>
@@ -238,7 +238,7 @@ Copyright © 2012-2015 The Bullcoin developers</source>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="116"/>
-        <source>Bullcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <source>Cryptobullcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation>Сейчас программа закроется для завершения процесса шифрования. Помните, что шифрование вашего бумажника не может полностью защитить ваши монеты от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
     </message>
     <message>
@@ -291,7 +291,7 @@ Copyright © 2012-2015 The Bullcoin developers</source>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="178"/>
-        <source>Bullcoin will close now to finish the decryption process. </source>
+        <source>Cryptobullcoin will close now to finish the decryption process. </source>
         <translation>Сейчас программа закроется для завершения процесса расшифровки.</translation>
     </message>
     <message>
@@ -310,14 +310,14 @@ Copyright © 2012-2015 The Bullcoin developers</source>
     <name>BitcoinGUI</name>
     <message>
         <location filename="../bitcoin.cpp" line="146"/>
-        <source>A fatal error occurred. Bullcoin can no longer continue safely and will quit.</source>
-        <translation>Произошла неисправимая ошибка. Bullcoin не может безопасно продолжать работу и будет закрыт.</translation>
+        <source>A fatal error occurred. Cryptobullcoin can no longer continue safely and will quit.</source>
+        <translation>Произошла неисправимая ошибка. Cryptobullcoin не может безопасно продолжать работу и будет закрыт.</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="96"/>
         <location filename="../bitcoingui.cpp" line="736"/>
-        <source>Bullcoin</source>
-        <translation>Bullcoin</translation>
+        <source>Cryptobullcoin</source>
+        <translation>Cryptobullcoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="96"/>
@@ -341,8 +341,8 @@ Copyright © 2012-2015 The Bullcoin developers</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="251"/>
-        <source>Send coins to a Bullcoin address</source>
-        <translation>Отправить монеты на указанный адрес Bullcoin</translation>
+        <source>Send coins to a Cryptobullcoin address</source>
+        <translation>Отправить монеты на указанный адрес Cryptobullcoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="256"/>
@@ -406,13 +406,13 @@ Copyright © 2012-2015 The Bullcoin developers</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="303"/>
-        <source>&amp;About Bullcoin</source>
-        <translation>&amp;О Bullcoin</translation>
+        <source>&amp;About Cryptobullcoin</source>
+        <translation>&amp;О Cryptobullcoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="304"/>
-        <source>Show information about Bullcoin</source>
-        <translation>Показать информацию о Bullcoin&apos;е</translation>
+        <source>Show information about Cryptobullcoin</source>
+        <translation>Показать информацию о Cryptobullcoin&apos;е</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="307"/>
@@ -432,8 +432,8 @@ Copyright © 2012-2015 The Bullcoin developers</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="314"/>
-        <source>Modify configuration options for Bullcoin</source>
-        <translation>Изменить параметры конфигурации Bullcoin</translation>
+        <source>Modify configuration options for Cryptobullcoin</source>
+        <translation>Изменить параметры конфигурации Cryptobullcoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="316"/>
@@ -497,8 +497,8 @@ Copyright © 2012-2015 The Bullcoin developers</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="329"/>
-        <source>Sign messages with your Bullcoin addresses to prove you own them</source>
-        <translation>Подписать сообщения вашим Bullcoin адресом, чтобы доказать, что вы им владеете</translation>
+        <source>Sign messages with your Cryptobullcoin addresses to prove you own them</source>
+        <translation>Подписать сообщения вашим Cryptobullcoin адресом, чтобы доказать, что вы им владеете</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="330"/>
@@ -507,8 +507,8 @@ Copyright © 2012-2015 The Bullcoin developers</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="331"/>
-        <source>Verify messages to ensure they were signed with specified Bullcoin addresses</source>
-        <translation>Проверить сообщения, чтобы удостовериться, что они подписаны определенным Bullcoin адресом</translation>
+        <source>Verify messages to ensure they were signed with specified Cryptobullcoin addresses</source>
+        <translation>Проверить сообщения, чтобы удостовериться, что они подписаны определенным Cryptobullcoin адресом</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="332"/>
@@ -517,7 +517,7 @@ Copyright © 2012-2015 The Bullcoin developers</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="333"/>
-        <source>Second auth with your Bullcoin addresses</source>
+        <source>Second auth with your Cryptobullcoin addresses</source>
         <translation>Дополнительная авторизация по Вашим адресам</translation>
     </message>
     <message>
@@ -609,12 +609,12 @@ Copyright © 2012-2015 The Bullcoin developers</source>
     <message>
         <location filename="../bitcoingui.cpp" line="445"/>
         <location filename="../bitcoingui.cpp" line="513"/>
-        <source>Bullcoin client</source>
-        <translation>Bullcoin клиент</translation>
+        <source>Cryptobullcoin client</source>
+        <translation>Cryptobullcoin клиент</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="586"/>
-        <source>%n active connection(s) to Bullcoin network</source>
+        <source>%n active connection(s) to Cryptobullcoin network</source>
         <translation>
             <numerusform>%n активное соединение с сетью</numerusform>
             <numerusform>%n активных соединений с сетью</numerusform>
@@ -792,8 +792,8 @@ Address: %4
     <message>
         <location filename="../bitcoingui.cpp" line="982"/>
         <location filename="../bitcoingui.cpp" line="997"/>
-        <source>URI can not be parsed! This can be caused by an invalid Bullcoin address or malformed URI parameters.</source>
-        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом Bullcoin или неправильными параметрами URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Cryptobullcoin address or malformed URI parameters.</source>
+        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом Cryptobullcoin или неправильными параметрами URI.</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="1016"/>
@@ -1233,8 +1233,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="103"/>
-        <source>The entered address &quot;%1&quot; is not a valid Bullcoin address.</source>
-        <translation>Введённый адрес &quot;%1&quot; не является правильным Bullcoin-адресом.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Cryptobullcoin address.</source>
+        <translation>Введённый адрес &quot;%1&quot; не является правильным Cryptobullcoin-адресом.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="108"/>
@@ -1285,8 +1285,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="476"/>
         <location filename="../guiutil.cpp" line="488"/>
-        <source>Bullcoin-Qt</source>
-        <translation>Bullcoin-Qt</translation>
+        <source>Cryptobullcoin-Qt</source>
+        <translation>Cryptobullcoin-Qt</translation>
     </message>
     <message>
         <location filename="../guiutil.cpp" line="476"/>
@@ -1333,17 +1333,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../forms/intro.ui" line="23"/>
-        <source>Welcome to Bullcoin-qt.</source>
+        <source>Welcome to Cryptobullcoin-qt.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../forms/intro.ui" line="49"/>
-        <source>As this is the first time the program is launched, you can choose where Bullcoin-qt will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where Cryptobullcoin-qt will store its data.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../forms/intro.ui" line="59"/>
-        <source>Bullcoin-qt will download and store a copy of the Bullcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Cryptobullcoin-qt will download and store a copy of the Cryptobullcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1358,7 +1358,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../intro.cpp" line="184"/>
-        <source>Bullcoin-qt</source>
+        <source>Cryptobullcoin-qt</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1981,13 +1981,13 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="86"/>
-        <source>Automatically start Bullcoin after logging in to the system.</source>
-        <translation>Автоматически запускать Bullcoin после входа в систему</translation>
+        <source>Automatically start Cryptobullcoin after logging in to the system.</source>
+        <translation>Автоматически запускать Cryptobullcoin после входа в систему</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="89"/>
-        <source>&amp;Start Bullcoin on system login</source>
-        <translation>&amp;Запускать Bullcoin при входе в систему</translation>
+        <source>&amp;Start Cryptobullcoin on system login</source>
+        <translation>&amp;Запускать Cryptobullcoin при входе в систему</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="96"/>
@@ -2006,8 +2006,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="136"/>
-        <source>Connect to the Bullcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Подключаться к сети Bullcoin через прокси SOCKS (например, при подключении через Tor).</translation>
+        <source>Connect to the Cryptobullcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Подключаться к сети Cryptobullcoin через прокси SOCKS (например, при подключении через Tor).</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="139"/>
@@ -2106,8 +2106,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="414"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bullcoin.</source>
-        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска Bullcoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Cryptobullcoin.</source>
+        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска Cryptobullcoin.</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="425"/>
@@ -2121,8 +2121,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="447"/>
-        <source>Whether to show Bullcoin addresses in the transaction list or not.</source>
-        <translation>Показывать ли адреса Bullcoin в списке транзакций.</translation>
+        <source>Whether to show Cryptobullcoin addresses in the transaction list or not.</source>
+        <translation>Показывать ли адреса Cryptobullcoin в списке транзакций.</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="450"/>
@@ -2183,8 +2183,8 @@ Reduce the number of addresses involved in the address creation.</source>
         <location filename="../optionsdialog.cpp" line="249"/>
         <location filename="../optionsdialog.cpp" line="258"/>
         <location filename="../optionsdialog.cpp" line="267"/>
-        <source>This setting will take effect after restarting Bullcoin.</source>
-        <translation>Эта настройка вступит в силу после перезапуска Bullcoin</translation>
+        <source>This setting will take effect after restarting Cryptobullcoin.</source>
+        <translation>Эта настройка вступит в силу после перезапуска Cryptobullcoin</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="297"/>
@@ -2207,8 +2207,8 @@ Reduce the number of addresses involved in the address creation.</source>
     <message>
         <location filename="../forms/overviewpage.ui" line="46"/>
         <location filename="../forms/overviewpage.ui" line="365"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bullcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью Bullcoin после подключения, но этот процесс пока не завершён.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Cryptobullcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью Cryptobullcoin после подключения, но этот процесс пока не завершён.</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="225"/>
@@ -2308,18 +2308,18 @@ Reduce the number of addresses involved in the address creation.</source>
     <name>QObject</name>
     <message>
         <location filename="../bitcoinunits.cpp" line="48"/>
-        <source>Bullcoins</source>
-        <translation>Bullcoins</translation>
+        <source>Cryptobullcoins</source>
+        <translation>Cryptobullcoins</translation>
     </message>
     <message>
         <location filename="../bitcoinunits.cpp" line="49"/>
-        <source>Milli-Bullcoins (1 / 1,000)</source>
-        <translation>Милли-Bullcoins (1 / 1000)</translation>
+        <source>Milli-Cryptobullcoins (1 / 1,000)</source>
+        <translation>Милли-Cryptobullcoins (1 / 1000)</translation>
     </message>
     <message>
         <location filename="../bitcoinunits.cpp" line="50"/>
-        <source>Micro-Bullcoins (1 / 1,000,000)</source>
-        <translation>Микро-Bullcoins (1 / 1000000)</translation>
+        <source>Micro-Cryptobullcoins (1 / 1,000,000)</source>
+        <translation>Микро-Cryptobullcoins (1 / 1000000)</translation>
     </message>
     <message>
         <location filename="../bitcoinunits.cpp" line="185"/>
@@ -2419,8 +2419,8 @@ Reduce the number of addresses involved in the address creation.</source>
     <name>RPCConsole</name>
     <message>
         <location filename="../forms/rpcconsole.ui" line="14"/>
-        <source>Bullcoin - Debug window</source>
-        <translation>Bullcoin - Окно отладки</translation>
+        <source>Cryptobullcoin - Debug window</source>
+        <translation>Cryptobullcoin - Окно отладки</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="24"/>
@@ -2459,8 +2459,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="95"/>
-        <source>Open the Bullcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть отладочный лог-файл Bullcoin из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
+        <source>Open the Cryptobullcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть отладочный лог-файл Cryptobullcoin из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="98"/>
@@ -2474,8 +2474,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="147"/>
-        <source>Show the Bullcoin-Qt help message to get a list with possible Bullcoin command-line options.</source>
-        <translation>Показать помощь по Bullcoin-Qt, чтобы получить список доступных параметров командной строки.</translation>
+        <source>Show the Cryptobullcoin-Qt help message to get a list with possible Cryptobullcoin command-line options.</source>
+        <translation>Показать помощь по Cryptobullcoin-Qt, чтобы получить список доступных параметров командной строки.</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="150"/>
@@ -2539,8 +2539,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="383"/>
-        <source>Bullcoin Core</source>
-        <translation>Ядро Bullcoin</translation>
+        <source>Cryptobullcoin Core</source>
+        <translation>Ядро Cryptobullcoin</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="406"/>
@@ -2549,8 +2549,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="426"/>
-        <source>Open the Bullcoin configuration file from the current data directory.</source>
-        <translation>Открыть конфигурационный файл Bullcoin из текущего каталога данных.</translation>
+        <source>Open the Cryptobullcoin configuration file from the current data directory.</source>
+        <translation>Открыть конфигурационный файл Cryptobullcoin из текущего каталога данных.</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="429"/>
@@ -2594,8 +2594,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="325"/>
-        <source>Welcome to the Bullcoin RPC console.</source>
-        <translation>Добро пожаловать в RPC-консоль Bullcoin.</translation>
+        <source>Welcome to the Cryptobullcoin RPC console.</source>
+        <translation>Добро пожаловать в RPC-консоль Cryptobullcoin.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="326"/>
@@ -2690,8 +2690,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../secondauthdialog.cpp" line="29"/>
-        <source>Enter a Bullcoin address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
-        <translation>Введите адрес Bullcoin (напр. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
+        <source>Enter a Cryptobullcoin address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
+        <translation>Введите адрес Cryptobullcoin (напр. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
     </message>
     <message>
         <location filename="../secondauthdialog.cpp" line="80"/>
@@ -2927,8 +2927,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="42"/>
-        <source>Enter a Bullcoin address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
-        <translation>Введите Bullcoin-адрес (например 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
+        <source>Enter a Cryptobullcoin address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
+        <translation>Введите Cryptobullcoin-адрес (например 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="56"/>
@@ -3087,8 +3087,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="26"/>
-        <source>Enter a Bullcoin address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
-        <translation>Введите Bullcoin-адрес (например 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
+        <source>Enter a Cryptobullcoin address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
+        <translation>Введите Cryptobullcoin-адрес (например 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
     </message>
 </context>
 <context>
@@ -3148,8 +3148,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="148"/>
-        <source>Sign the message to prove you own this Bullcoin address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом Bullcoin</translation>
+        <source>Sign the message to prove you own this Cryptobullcoin address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом Cryptobullcoin</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="165"/>
@@ -3180,8 +3180,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="294"/>
-        <source>Verify the message to ensure it was signed with the specified Bullcoin address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Bullcoin</translation>
+        <source>Verify the message to ensure it was signed with the specified Cryptobullcoin address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Cryptobullcoin</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="311"/>
@@ -3191,8 +3191,8 @@ Reduce the number of addresses involved in the address creation.</source>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="29"/>
         <location filename="../signverifymessagedialog.cpp" line="32"/>
-        <source>Enter a Bullcoin address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
-        <translation>Введите адрес Bullcoin (напр. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
+        <source>Enter a Cryptobullcoin address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
+        <translation>Введите адрес Cryptobullcoin (напр. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="30"/>
@@ -3201,8 +3201,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="33"/>
-        <source>Enter Bullcoin signature</source>
-        <translation>Введите подпись Bullcoin</translation>
+        <source>Enter Cryptobullcoin signature</source>
+        <translation>Введите подпись Cryptobullcoin</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="115"/>
@@ -3792,7 +3792,7 @@ Reduce the number of addresses involved in the address creation.</source>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=Bullcoinrpc
+rpcuser=Cryptobullcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 If the file does not exist, create it with owner-readable-only file permissions.
@@ -3800,7 +3800,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
         <translation>%s, вы должны установить опцию rpcpassword в конфигурационном файле:
  %s
 Рекомендуется использовать следующий случайный пароль:
-rpcuser=Bullcoinrpc
+rpcuser=Cryptobullcoinrpc
 rpcpassword=%s
 (вам не нужно запоминать этот пароль)
 Если файл не существует, создайте его и установите права доступа только для владельца.
@@ -3823,8 +3823,8 @@ rpcpassword=%s
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="26"/>
-        <source>Cannot obtain a lock on data directory %s.  Bullcoin is probably already running.</source>
-        <translation>Невозможно установить блокировку на рабочую директорию %s.  Возможно, Bullcoin уже запущен.</translation>
+        <source>Cannot obtain a lock on data directory %s.  Cryptobullcoin is probably already running.</source>
+        <translation>Невозможно установить блокировку на рабочую директорию %s.  Возможно, Cryptobullcoin уже запущен.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="29"/>
@@ -3873,8 +3873,8 @@ rpcpassword=%s
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="54"/>
-        <source>Unable to bind to %s on this computer. Bullcoin is probably already running.</source>
-        <translation>Невозможно привязаться к %s на этом компьютере.  Возможно, Bullcoin уже работает.</translation>
+        <source>Unable to bind to %s on this computer. Cryptobullcoin is probably already running.</source>
+        <translation>Невозможно привязаться к %s на этом компьютере.  Возможно, Cryptobullcoin уже работает.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="56"/>
@@ -3883,8 +3883,8 @@ rpcpassword=%s
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="59"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bullcoin will not work properly.</source>
-        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, Bullcoin будет работать некорректно.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Cryptobullcoin will not work properly.</source>
+        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, Cryptobullcoin будет работать некорректно.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="62"/>
@@ -4012,8 +4012,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="95"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bullcoin</source>
-        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию Bullcoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Cryptobullcoin</source>
+        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию Cryptobullcoin</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="96"/>
@@ -4158,13 +4158,13 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="124"/>
-        <source>Bullcoin version</source>
+        <source>Cryptobullcoin version</source>
         <translation>Версия</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="125"/>
-        <source>Bullcoin</source>
-        <translation>Bullcoin</translation>
+        <source>Cryptobullcoin</source>
+        <translation>Cryptobullcoin</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="126"/>
@@ -4224,8 +4224,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="137"/>
-        <source>Send command to -server or Bullcoind</source>
-        <translation>Отправить команду на -server или Bullcoind</translation>
+        <source>Send command to -server or Cryptobullcoind</source>
+        <translation>Отправить команду на -server или Cryptobullcoind</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="138"/>
@@ -4289,8 +4289,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="150"/>
-        <source>Specify configuration file (default: Bullcoin.conf)</source>
-        <translation>Указать конфигурационный файл (по умолчанию: Bullcoin.conf)</translation>
+        <source>Specify configuration file (default: Cryptobullcoin.conf)</source>
+        <translation>Указать конфигурационный файл (по умолчанию: Cryptobullcoin.conf)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="151"/>
@@ -4304,8 +4304,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="153"/>
-        <source>Specify pid file (default: Bullcoind.pid)</source>
-        <translation>Указать pid-файл (по умолчанию: Bullcoin.pid)</translation>
+        <source>Specify pid file (default: Cryptobullcoind.pid)</source>
+        <translation>Указать pid-файл (по умолчанию: Cryptobullcoin.pid)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="154"/>
@@ -4386,8 +4386,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="171"/>
-        <source>Wallet needed to be rewritten: restart Bullcoin to complete</source>
-        <translation>Необходимо перезаписать бумажник, перезапустите Bullcoin для завершения операции.</translation>
+        <source>Wallet needed to be rewritten: restart Cryptobullcoin to complete</source>
+        <translation>Необходимо перезаписать бумажник, перезапустите Cryptobullcoin для завершения операции.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="172"/>

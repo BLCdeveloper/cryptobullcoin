@@ -323,7 +323,7 @@ bool GetMyExternalIP(CNetAddr& ipRet)
 void ThreadGetMyExternalIP(void* parg)
 {
     // Make this thread recognisable as the external IP detection thread
-    RenameThread("Bullcoin-ext-ip");
+    RenameThread("Cryptobullcoin-ext-ip");
 
     CNetAddr addrLocalHost;
     if (GetMyExternalIP(addrLocalHost))
@@ -583,7 +583,7 @@ void CNode::copyStats(CNodeStats &stats)
 void ThreadSocketHandler(void* parg)
 {
     // Make this thread recognisable as the networking thread
-    RenameThread("Bullcoin-net");
+    RenameThread("Cryptobullcoin-net");
 
     try
     {
@@ -945,7 +945,7 @@ static const char *strDNSSeed[][2] = {
 void ThreadDNSAddressSeed(void* parg)
 {
     // Make this thread recognisable as the DNS seeding thread
-    RenameThread("Bullcoin-dnsseed");
+    RenameThread("Cryptobullcoin-dnsseed");
 
     try
     {
@@ -1074,7 +1074,7 @@ void ThreadDumpAddress2(void* parg)
 void ThreadDumpAddress(void* parg)
 {
     // Make this thread recognisable as the address dumping thread
-    RenameThread("Bullcoin-adrdump");
+    RenameThread("Cryptobullcoin-adrdump");
 
     try
     {
@@ -1089,7 +1089,7 @@ void ThreadDumpAddress(void* parg)
 void ThreadOpenConnections(void* parg)
 {
     // Make this thread recognisable as the connection opening thread
-    RenameThread("Bullcoin-opencon");
+    RenameThread("Cryptobullcoin-opencon");
 
     try
     {
@@ -1264,7 +1264,7 @@ void ThreadOpenConnections2(void* parg)
 void ThreadOpenAddedConnections(void* parg)
 {
     // Make this thread recognisable as the connection opening thread
-    RenameThread("Bullcoin-opencon");
+    RenameThread("Cryptobullcoin-opencon");
 
     try
     {
@@ -1441,7 +1441,7 @@ void static StartSync(const vector<CNode*> &vNodes) {
 void ThreadMessageHandler(void* parg)
 {
     // Make this thread recognisable as the message handling thread
-    RenameThread("Bullcoin-msghand");
+    RenameThread("Cryptobullcoin-msghand");
 
     try
     {
@@ -1600,7 +1600,7 @@ bool BindListenPort(const CService &addrBind, string& strError)
     {
         int nErr = WSAGetLastError();
         if (nErr == WSAEADDRINUSE)
-            strError = strprintf(_("Unable to bind to %s on this computer. Bullcoin is probably already running."), addrBind.ToString().c_str());
+            strError = strprintf(_("Unable to bind to %s on this computer. Cryptobullcoin is probably already running."), addrBind.ToString().c_str());
         else
             strError = strprintf(_("Unable to bind to %s on this computer (bind returned error %d, %s)"), addrBind.ToString().c_str(), nErr, strerror(nErr));
         printf("%s\n", strError.c_str());
@@ -1685,7 +1685,7 @@ void static Discover()
 void StartNode(void* parg)
 {
     // Make this thread recognisable as the startup thread
-    RenameThread("Bullcoin-start");
+    RenameThread("Cryptobullcoin-start");
 
     if (semOutbound == NULL) {
         // initialize semaphore
